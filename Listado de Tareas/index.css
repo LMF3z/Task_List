@@ -1,0 +1,85 @@
+body{
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  padding: 0;
+  margin: 0;
+  background: rgba(0, 0, 0, 0.5);
+  /* background: -webkit-linear-gradient(to right, #4389a2, #5c258d);
+  background: linear-gradient(to right, #4389a2, #5c258d); */
+}
+
+.navBar{
+  width: 100%;
+  height: 100px;
+  background: #000;
+  text-align: center;
+  padding-top: 3%;
+  /* color: white; */
+  text-transform: uppercase;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+#card{
+  width: 35%;
+  height: 80vh;
+  /* border: solid 1px red; */
+  padding: 3%;
+  float: left;
+}
+
+#formulario{
+  width: 90%;
+  height: 90%;
+  background: white;
+  text-align: center;
+}
+
+.form-control{
+  margin: auto;
+}
+
+#caja{
+  width: 65%;
+  height: 90vh;
+  /* background: red; */
+  /* border: solid 1px red; */
+  padding: 1%;
+  float: left;
+}
+
+.tarjetTask{
+  text-align: center;
+  width: 45%;
+  height: 90%;
+  background: rgba(0, 0, 0, 0.7);
+  color: white;
+  margin-left: 5px;
+  margin-top: 5px;
+  padding: 3%;
+  float: left;
+}
+
+.tarjetTask h1{
+  color: skyblue;
+  background: black;
+  border-radius: 30px;
+  width: 90%;
+  margin: auto;
+  margin-bottom: 10px;
+}
+
+.tarjetTask p{
+  color: skyblue;
+  background: black;
+  border-radius: 30px;
+  width: 80%;
+  margin: auto;
+  margin-bottom: 10px;
+}
+
+.tarjetTask h3{
+  color: blue;
+}
